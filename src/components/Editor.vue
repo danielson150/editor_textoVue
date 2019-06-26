@@ -7,6 +7,8 @@
   </div>
 </template>
 <script>
+import hljs from "highlight.js";
+import "highlight.js/styles/monokai-sublime.css";
 export default {
   name: "Editor",
   data() {

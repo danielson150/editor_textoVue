@@ -10,7 +10,10 @@
 </template>
 <script>
 import hljs from "highlight.js";
+import { remote } from "electron";
 import "highlight.js/styles/monokai-sublime.css";
+import fs from "fs";
+
 export default {
   name: "Editor",
   data() {
